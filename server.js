@@ -19,10 +19,10 @@ app.get("/", (req, res) =>
 
 // notes
 app.get("/notes", (req, res) =>
-  res.sendFile(path.join(__dirname, "/public/pages/notes.html"))
+  res.sendFile(path.join(__dirname, "/public/notes.html"))
 );
 
-// connection string 
+// connection string
 app.listen(PORT, () =>
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 );
